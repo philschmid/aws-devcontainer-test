@@ -4,5 +4,18 @@
 1. start a ec2 instance 
 2. update `~/.ssh/config`
 3. make sure locker docker daemon is stopped
-4. expose remote docker deamon `export DOCKER_HOST=ssh://ubuntu@infinity`
-5. start devcontainer 
+4. expose remote docker and start devcontainer 
+```bash
+DOCKER_HOST=ssh://ubuntu@infinity devcontainer open
+``` 
+5. 
+
+
+## Idea for tool 
+
+provide git repo + aws profile 
+
+```bash
+aws-dev-container philschmid/my-repo --profile x1
+```
+
