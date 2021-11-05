@@ -40,7 +40,7 @@
   // "forwardPorts": [],
 
   // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": "git clone https://github.com/philschmid/aws-devcontainer-test",
+  "postCreateCommand": "git clone https://github.com/philschmid/aws-devcontainer-test && cd aws-devcontainer-test",
 
   // Use 'postStartCommand' to run commands after the container is started.
   "postStartCommand": "git pull",
