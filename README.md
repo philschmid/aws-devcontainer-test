@@ -8,7 +8,8 @@
 ```bash
 DOCKER_HOST=ssh://ubuntu@infinity devcontainer open
 ``` 
-5. 
+5. run dev container
+6. stop ec2
 
 
 ## Idea for tool 
